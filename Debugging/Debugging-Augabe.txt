@@ -6,7 +6,8 @@ Zum Breakpoint entnimmt "root" Name und Nachname und Geburtsdatum der jüngsten 
 Die selben Eigensschaften werden für die Eltern aufgerufen. 
 
 Ändert man beispielsweise die Bediengung in  (if (person.LastName == "Battenberg")) wird es einen Absturz geben, denn:
-Es wird die erste Mutter gesucht, dan wird sich die Find Methode wieder aufrufen, d.h. eine Weitere Mutter wird gesucht bis keine gefunden wird, denn "Battenberg" würde es erst bei einer Mutter des Vaters geben. 
+Es wird die erste Mutter gesucht, dan wird sich die Find Methode wieder aufrufen, 
+d.h. eine Weitere Mutter wird gesucht bis keine gefunden wird, denn "Battenberg" würde es erst bei einer Mutter des Vaters geben. 
 Dazu kommt es aber nicht. 
 
 Wenn aber ein Name Mutterlicherseits ausgewählt wird, z.B. Roche, -wird dieser Name ausgegeben.
