@@ -1,11 +1,15 @@
-Person ist eine Klasse die aus Name, Nachname, Geburtdatum und Eltern besteht. Die Eltern besitzen die selben Eigenschaften, da sie Auch Dateityp "Person" sind. Auch die Eltern haben Eltern, somit ist der Dateityp "Person" rekursiv.
+Person ist eine Klasse die aus Name, Nachname, Geburtdatum und Eltern besteht. 
+Die Eltern besitzen die selben Eigenschaften, da sie Auch Dateityp "Person" sind. 
+Auch die Eltern haben Eltern, somit ist der Dateityp "Person" rekursiv.
 
-Zum Breakpoint entnimmt "root" Name und Nachname und Geburtsdatum der juengsten Person. Die selben Eigensschaften werden fuer die Eltern aufgerufen. 
+Zum Breakpoint entnimmt "root" Name und Nachname und Geburtsdatum der jüngsten Person. 
+Die selben Eigensschaften werden für die Eltern aufgerufen. 
 
-aendert man beispielsweise die Bediengung in  (if (person.LastName == "Battenberg")) wird es einen Absturz geben, denn:
-Es wird die erste Mutter gesucht, dan wird sich die Find Methode wieder aufrufen, d.h. eine Weitere Mutter wird gesucht bis keine gefunden wird, denn "Battenberg" wuerd es erst bei einer Mutter des Vaters geben. Dazu kommt es aber nicht. 
+Ändert man beispielsweise die Bediengung in  (if (person.LastName == "Battenberg")) wird es einen Absturz geben, denn:
+Es wird die erste Mutter gesucht, dan wird sich die Find Methode wieder aufrufen, d.h. eine Weitere Mutter wird gesucht bis keine gefunden wird, denn "Battenberg" würde es erst bei einer Mutter des Vaters geben. 
+Dazu kommt es aber nicht. 
 
-Wenn aber ein Name Mutterlicherseits ausgewaehlt wird, z.B. Roche, -wird dieser Name ausgegeben.
+Wenn aber ein Name Mutterlicherseits ausgewählt wird, z.B. Roche, -wird dieser Name ausgegeben.
 
 
 
