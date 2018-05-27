@@ -1,38 +1,53 @@
 ﻿using System;
+using System.Collections.Generic;
 
-namespace L06
+namespace uml
 {
     class Program
     {
-        public class Person
-        {
-            public string name;
-            public int age;
-
-        }
-        public class Prof : Person
-        {
-            public string consult;
-            public int room;
-        }
-
-        public class Participant : Person
-        {
-            public int number;
-        }
-
-        public class Course
-        {
-            int room;
-            string time;
-            string title;
-            public Participant participant;
-            public Prof prof;
-
-        }
         static void Main(string[] args)
         {
-            //Console.WriteLine("Hello World!");
+            // Console.WriteLine("Hello World!");
+        }
+        public List<Participants<P>> ParticipantsList = new List<ParticipantsList<P>>();
+
+        public List<Course<C>> CourseList = new List<CourseList<C>>();
+
+        public class Person
+        {
+            public string Name;
+            public int age;
+        }
+        public class Participants : Person
+        {
+            public int RegistrationNumber;
+            public CourseList<C> Course; 
+        }
+        public class Lecturer : Person
+        {
+            public string Room;
+            public DateTime Consultation;
+            public CourseList<C> Course; 
+
+            public void AddCourse(CourseList<C> course)
+        {
+            CourseList.Add(course);
+        }
+            public void AddParticipants(ParticipantsList<P> participants)
+        {
+            ParticipantsList.Add(participants);
+        } 
+        }
+        public class Course
+        {
+            public string Title;
+            public DateTime Date;
+            public string Room;
+
+            public string outputInformationText()
+            {
+                return ;
+            }
         }
     }
 }

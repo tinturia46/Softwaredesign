@@ -1,0 +1,4 @@
+C:\Users\Davide\Documents\GitHub\SoftwareDesign2\Softwaredesign\L06\obj\Debug\netcoreapp2.0\L06.csprojResolveAssemblyReference.cache
+C:\Users\Davide\Documents\GitHub\SoftwareDesign2\Softwaredesign\L06\obj\Debug\netcoreapp2.0\L06.csproj.CoreCompileInputs.cache
+C:\Users\Davide\Documents\GitHub\SoftwareDesign2\Softwaredesign\L06\obj\Debug\netcoreapp2.0\L06.AssemblyInfoInputs.cache
+C:\Users\Davide\Documents\GitHub\SoftwareDesign2\Softwaredesign\L06\obj\Debug\netcoreapp2.0\L06.AssemblyInfo.cs
