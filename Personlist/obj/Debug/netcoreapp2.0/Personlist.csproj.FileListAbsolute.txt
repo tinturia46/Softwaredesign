@@ -1,0 +1,11 @@
+C:\Users\Davide\Documents\GitHub\SoftwareDesign2\Softwaredesign\Personlist\bin\Debug\netcoreapp2.0\Personlist.deps.json
+C:\Users\Davide\Documents\GitHub\SoftwareDesign2\Softwaredesign\Personlist\bin\Debug\netcoreapp2.0\Personlist.runtimeconfig.json
+C:\Users\Davide\Documents\GitHub\SoftwareDesign2\Softwaredesign\Personlist\bin\Debug\netcoreapp2.0\Personlist.runtimeconfig.dev.json
+C:\Users\Davide\Documents\GitHub\SoftwareDesign2\Softwaredesign\Personlist\bin\Debug\netcoreapp2.0\Personlist.dll
+C:\Users\Davide\Documents\GitHub\SoftwareDesign2\Softwaredesign\Personlist\bin\Debug\netcoreapp2.0\Personlist.pdb
+C:\Users\Davide\Documents\GitHub\SoftwareDesign2\Softwaredesign\Personlist\obj\Debug\netcoreapp2.0\Personlist.csprojResolveAssemblyReference.cache
+C:\Users\Davide\Documents\GitHub\SoftwareDesign2\Softwaredesign\Personlist\obj\Debug\netcoreapp2.0\Personlist.csproj.CoreCompileInputs.cache
+C:\Users\Davide\Documents\GitHub\SoftwareDesign2\Softwaredesign\Personlist\obj\Debug\netcoreapp2.0\Personlist.AssemblyInfoInputs.cache
+C:\Users\Davide\Documents\GitHub\SoftwareDesign2\Softwaredesign\Personlist\obj\Debug\netcoreapp2.0\Personlist.AssemblyInfo.cs
+C:\Users\Davide\Documents\GitHub\SoftwareDesign2\Softwaredesign\Personlist\obj\Debug\netcoreapp2.0\Personlist.dll
+C:\Users\Davide\Documents\GitHub\SoftwareDesign2\Softwaredesign\Personlist\obj\Debug\netcoreapp2.0\Personlist.pdb

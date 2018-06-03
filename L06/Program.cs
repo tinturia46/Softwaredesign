@@ -1,53 +1,47 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 
-namespace uml
+
+namespace L06
 {
     class Program
     {
-        static void Main(string[] args)
+        class Course
         {
-            // Console.WriteLine("Hello World!");
-        }
-        public List<Participants<P>> ParticipantsList = new List<ParticipantsList<P>>();
-
-        public List<Course<C>> CourseList = new List<CourseList<C>>();
+            public int room;
+            public string Datetime;
+            public string title;
+            public Participant participant;
+            public Prof prof;
+            
+            }
 
         public class Person
         {
-            public string Name;
+            public string name;
             public int age;
-        }
-        public class Participants : Person
-        {
-            public int RegistrationNumber;
-            public CourseList<C> Course; 
-        }
-        public class Lecturer : Person
-        {
-            public string Room;
-            public DateTime Consultation;
-            public CourseList<C> Course; 
 
-            public void AddCourse(CourseList<C> course)
-        {
-            CourseList.Add(course);
         }
-            public void AddParticipants(ParticipantsList<P> participants)
+        public class Prof : Person
         {
-            ParticipantsList.Add(participants);
-        } 
-        }
-        public class Course
-        {
-            public string Title;
-            public DateTime Date;
-            public string Room;
+            public string consult;
+            public string room;
 
-            public string outputInformationText()
-            {
-                return ;
-            }
+            public List<Course> Course;
+
+        public class Participant : Person
+        {
+            public int number;
+            public List<Course> Course ;
+        }
+
+
+            //Example
+        Prof mueller = new Prof {name = "Müller", age = 50, consult="Mo 14:00 - 15:00", room = "L:2.06" , course = "Softwaredesign"};
+        static void Main(string[] args)
+        {
+            
         }
     }
 }
