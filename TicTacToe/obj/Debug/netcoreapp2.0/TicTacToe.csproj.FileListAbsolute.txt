@@ -1,0 +1,11 @@
+C:\Users\Davide\Documents\GitHub\SoftwareDesign2\Softwaredesign\TicTacToe\bin\Debug\netcoreapp2.0\TicTacToe.deps.json
+C:\Users\Davide\Documents\GitHub\SoftwareDesign2\Softwaredesign\TicTacToe\bin\Debug\netcoreapp2.0\TicTacToe.runtimeconfig.json
+C:\Users\Davide\Documents\GitHub\SoftwareDesign2\Softwaredesign\TicTacToe\bin\Debug\netcoreapp2.0\TicTacToe.runtimeconfig.dev.json
+C:\Users\Davide\Documents\GitHub\SoftwareDesign2\Softwaredesign\TicTacToe\bin\Debug\netcoreapp2.0\TicTacToe.dll
+C:\Users\Davide\Documents\GitHub\SoftwareDesign2\Softwaredesign\TicTacToe\bin\Debug\netcoreapp2.0\TicTacToe.pdb
+C:\Users\Davide\Documents\GitHub\SoftwareDesign2\Softwaredesign\TicTacToe\obj\Debug\netcoreapp2.0\TicTacToe.csprojResolveAssemblyReference.cache
+C:\Users\Davide\Documents\GitHub\SoftwareDesign2\Softwaredesign\TicTacToe\obj\Debug\netcoreapp2.0\TicTacToe.csproj.CoreCompileInputs.cache
+C:\Users\Davide\Documents\GitHub\SoftwareDesign2\Softwaredesign\TicTacToe\obj\Debug\netcoreapp2.0\TicTacToe.AssemblyInfoInputs.cache
+C:\Users\Davide\Documents\GitHub\SoftwareDesign2\Softwaredesign\TicTacToe\obj\Debug\netcoreapp2.0\TicTacToe.AssemblyInfo.cs
+C:\Users\Davide\Documents\GitHub\SoftwareDesign2\Softwaredesign\TicTacToe\obj\Debug\netcoreapp2.0\TicTacToe.dll
+C:\Users\Davide\Documents\GitHub\SoftwareDesign2\Softwaredesign\TicTacToe\obj\Debug\netcoreapp2.0\TicTacToe.pdb

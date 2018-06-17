@@ -1,0 +1,11 @@
+C:\Users\Davide\Documents\GitHub\SoftwareDesign2\Softwaredesign\L08\bin\Debug\netcoreapp2.0\L08.deps.json
+C:\Users\Davide\Documents\GitHub\SoftwareDesign2\Softwaredesign\L08\bin\Debug\netcoreapp2.0\L08.runtimeconfig.json
+C:\Users\Davide\Documents\GitHub\SoftwareDesign2\Softwaredesign\L08\bin\Debug\netcoreapp2.0\L08.runtimeconfig.dev.json
+C:\Users\Davide\Documents\GitHub\SoftwareDesign2\Softwaredesign\L08\bin\Debug\netcoreapp2.0\L08.dll
+C:\Users\Davide\Documents\GitHub\SoftwareDesign2\Softwaredesign\L08\bin\Debug\netcoreapp2.0\L08.pdb
+C:\Users\Davide\Documents\GitHub\SoftwareDesign2\Softwaredesign\L08\obj\Debug\netcoreapp2.0\L08.csprojResolveAssemblyReference.cache
+C:\Users\Davide\Documents\GitHub\SoftwareDesign2\Softwaredesign\L08\obj\Debug\netcoreapp2.0\L08.csproj.CoreCompileInputs.cache
+C:\Users\Davide\Documents\GitHub\SoftwareDesign2\Softwaredesign\L08\obj\Debug\netcoreapp2.0\L08.AssemblyInfoInputs.cache
+C:\Users\Davide\Documents\GitHub\SoftwareDesign2\Softwaredesign\L08\obj\Debug\netcoreapp2.0\L08.AssemblyInfo.cs
+C:\Users\Davide\Documents\GitHub\SoftwareDesign2\Softwaredesign\L08\obj\Debug\netcoreapp2.0\L08.dll
+C:\Users\Davide\Documents\GitHub\SoftwareDesign2\Softwaredesign\L08\obj\Debug\netcoreapp2.0\L08.pdb
