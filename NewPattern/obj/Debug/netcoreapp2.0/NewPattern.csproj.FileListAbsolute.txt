@@ -1,4 +1,0 @@
-C:\Users\Davide\Documents\GitHub\SoftwareDesign2\Softwaredesign\NewPattern\obj\Debug\netcoreapp2.0\NewPattern.csproj.CoreCompileInputs.cache
-C:\Users\Davide\Documents\GitHub\SoftwareDesign2\Softwaredesign\NewPattern\obj\Debug\netcoreapp2.0\NewPattern.AssemblyInfoInputs.cache
-C:\Users\Davide\Documents\GitHub\SoftwareDesign2\Softwaredesign\NewPattern\obj\Debug\netcoreapp2.0\NewPattern.AssemblyInfo.cs
-C:\Users\Davide\Documents\GitHub\SoftwareDesign2\Softwaredesign\NewPattern\obj\Debug\netcoreapp2.0\NewPattern.csprojResolveAssemblyReference.cache
