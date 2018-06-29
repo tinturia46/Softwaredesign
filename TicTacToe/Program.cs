@@ -6,8 +6,8 @@ namespace TicTacToe
     {
         static void Main(string[] args)
         {
-            Field.createfield();
-            Play.getTurn();
+            Field.printfield();
+            Play.play();
             
         }
     }

@@ -1,0 +1,11 @@
+C:\Users\Davide\Documents\GitHub\SoftwareDesign2\Softwaredesign\L10\bin\Debug\netcoreapp2.0\L10.deps.json
+C:\Users\Davide\Documents\GitHub\SoftwareDesign2\Softwaredesign\L10\bin\Debug\netcoreapp2.0\L10.runtimeconfig.json
+C:\Users\Davide\Documents\GitHub\SoftwareDesign2\Softwaredesign\L10\bin\Debug\netcoreapp2.0\L10.runtimeconfig.dev.json
+C:\Users\Davide\Documents\GitHub\SoftwareDesign2\Softwaredesign\L10\bin\Debug\netcoreapp2.0\L10.dll
+C:\Users\Davide\Documents\GitHub\SoftwareDesign2\Softwaredesign\L10\bin\Debug\netcoreapp2.0\L10.pdb
+C:\Users\Davide\Documents\GitHub\SoftwareDesign2\Softwaredesign\L10\obj\Debug\netcoreapp2.0\L10.csprojResolveAssemblyReference.cache
+C:\Users\Davide\Documents\GitHub\SoftwareDesign2\Softwaredesign\L10\obj\Debug\netcoreapp2.0\L10.csproj.CoreCompileInputs.cache
+C:\Users\Davide\Documents\GitHub\SoftwareDesign2\Softwaredesign\L10\obj\Debug\netcoreapp2.0\L10.AssemblyInfoInputs.cache
+C:\Users\Davide\Documents\GitHub\SoftwareDesign2\Softwaredesign\L10\obj\Debug\netcoreapp2.0\L10.AssemblyInfo.cs
+C:\Users\Davide\Documents\GitHub\SoftwareDesign2\Softwaredesign\L10\obj\Debug\netcoreapp2.0\L10.dll
+C:\Users\Davide\Documents\GitHub\SoftwareDesign2\Softwaredesign\L10\obj\Debug\netcoreapp2.0\L10.pdb
