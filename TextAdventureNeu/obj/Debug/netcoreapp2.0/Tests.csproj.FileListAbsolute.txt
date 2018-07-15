@@ -1,0 +1,11 @@
+C:\Users\Davide\Desktop\HFU\4.Semester\Softwareentwicklung\Tests\bin\Debug\netcoreapp2.0\Tests.deps.json
+C:\Users\Davide\Desktop\HFU\4.Semester\Softwareentwicklung\Tests\bin\Debug\netcoreapp2.0\Tests.runtimeconfig.json
+C:\Users\Davide\Desktop\HFU\4.Semester\Softwareentwicklung\Tests\bin\Debug\netcoreapp2.0\Tests.runtimeconfig.dev.json
+C:\Users\Davide\Desktop\HFU\4.Semester\Softwareentwicklung\Tests\bin\Debug\netcoreapp2.0\Tests.dll
+C:\Users\Davide\Desktop\HFU\4.Semester\Softwareentwicklung\Tests\bin\Debug\netcoreapp2.0\Tests.pdb
+C:\Users\Davide\Desktop\HFU\4.Semester\Softwareentwicklung\Tests\obj\Debug\netcoreapp2.0\Tests.csprojResolveAssemblyReference.cache
+C:\Users\Davide\Desktop\HFU\4.Semester\Softwareentwicklung\Tests\obj\Debug\netcoreapp2.0\Tests.csproj.CoreCompileInputs.cache
+C:\Users\Davide\Desktop\HFU\4.Semester\Softwareentwicklung\Tests\obj\Debug\netcoreapp2.0\Tests.AssemblyInfoInputs.cache
+C:\Users\Davide\Desktop\HFU\4.Semester\Softwareentwicklung\Tests\obj\Debug\netcoreapp2.0\Tests.AssemblyInfo.cs
+C:\Users\Davide\Desktop\HFU\4.Semester\Softwareentwicklung\Tests\obj\Debug\netcoreapp2.0\Tests.dll
+C:\Users\Davide\Desktop\HFU\4.Semester\Softwareentwicklung\Tests\obj\Debug\netcoreapp2.0\Tests.pdb

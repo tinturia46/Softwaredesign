@@ -6,6 +6,7 @@ namespace TicTacToe
     {
         static void Main(string[] args)
         {
+            Field.howto();
             Field.printfield();
             Play.play();
             
