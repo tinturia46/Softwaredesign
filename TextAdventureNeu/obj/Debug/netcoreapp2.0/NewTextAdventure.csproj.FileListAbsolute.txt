@@ -1,0 +1,11 @@
+C:\Users\Davide\Desktop\HFU\4.Semester\Softwareentwicklung\NewTextAdventure\bin\Debug\netcoreapp2.0\NewTextAdventure.deps.json
+C:\Users\Davide\Desktop\HFU\4.Semester\Softwareentwicklung\NewTextAdventure\bin\Debug\netcoreapp2.0\NewTextAdventure.runtimeconfig.json
+C:\Users\Davide\Desktop\HFU\4.Semester\Softwareentwicklung\NewTextAdventure\bin\Debug\netcoreapp2.0\NewTextAdventure.runtimeconfig.dev.json
+C:\Users\Davide\Desktop\HFU\4.Semester\Softwareentwicklung\NewTextAdventure\bin\Debug\netcoreapp2.0\NewTextAdventure.dll
+C:\Users\Davide\Desktop\HFU\4.Semester\Softwareentwicklung\NewTextAdventure\bin\Debug\netcoreapp2.0\NewTextAdventure.pdb
+C:\Users\Davide\Desktop\HFU\4.Semester\Softwareentwicklung\NewTextAdventure\obj\Debug\netcoreapp2.0\NewTextAdventure.csprojResolveAssemblyReference.cache
+C:\Users\Davide\Desktop\HFU\4.Semester\Softwareentwicklung\NewTextAdventure\obj\Debug\netcoreapp2.0\NewTextAdventure.csproj.CoreCompileInputs.cache
+C:\Users\Davide\Desktop\HFU\4.Semester\Softwareentwicklung\NewTextAdventure\obj\Debug\netcoreapp2.0\NewTextAdventure.AssemblyInfoInputs.cache
+C:\Users\Davide\Desktop\HFU\4.Semester\Softwareentwicklung\NewTextAdventure\obj\Debug\netcoreapp2.0\NewTextAdventure.AssemblyInfo.cs
+C:\Users\Davide\Desktop\HFU\4.Semester\Softwareentwicklung\NewTextAdventure\obj\Debug\netcoreapp2.0\NewTextAdventure.dll
+C:\Users\Davide\Desktop\HFU\4.Semester\Softwareentwicklung\NewTextAdventure\obj\Debug\netcoreapp2.0\NewTextAdventure.pdb

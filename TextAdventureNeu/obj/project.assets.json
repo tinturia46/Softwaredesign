@@ -670,11 +670,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Davide\\Desktop\\HFU\\4.Semester\\Softwareentwicklung\\Tests\\Tests.csproj",
-      "projectName": "Tests",
-      "projectPath": "C:\\Users\\Davide\\Desktop\\HFU\\4.Semester\\Softwareentwicklung\\Tests\\Tests.csproj",
+      "projectUniqueName": "C:\\Users\\Davide\\Desktop\\HFU\\4.Semester\\Softwareentwicklung\\NewTextAdventure\\NewTextAdventure.csproj",
+      "projectName": "NewTextAdventure",
+      "projectPath": "C:\\Users\\Davide\\Desktop\\HFU\\4.Semester\\Softwareentwicklung\\NewTextAdventure\\NewTextAdventure.csproj",
       "packagesPath": "C:\\Users\\Davide\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Davide\\Desktop\\HFU\\4.Semester\\Softwareentwicklung\\Tests\\obj\\",
+      "outputPath": "C:\\Users\\Davide\\Desktop\\HFU\\4.Semester\\Softwareentwicklung\\NewTextAdventure\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

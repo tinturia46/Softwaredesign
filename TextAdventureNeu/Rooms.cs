@@ -2,19 +2,19 @@ using System;
 using System.Collections.Generic;
 using System.Collections;
 
-namespace Tests
+namespace NewTextAdventure
 {
-        
-    
-    
-    class Room 
+
+
+
+    class Room
     {
         public string name;
         public string description;
         public bool isAccesible;
         public bool isHere;
 
-        //public int[] number;
+        
 
         public Room north = null;
         public Room south = null;
@@ -25,11 +25,11 @@ namespace Tests
 
         public List<Item> itemsInRoom = new List<Item>();
 
-        
-           
-    
-        
+
+
+
+
     }
-    
+
 
 }
