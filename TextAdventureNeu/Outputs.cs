@@ -14,13 +14,12 @@ namespace TextAdventureNeu
             Console.WriteLine("type 'n','e','s','w' or 'north', 'east', 'south', 'west' to go to the selected direction.");
             Console.WriteLine("type 'f' or 'fight' to fight, 'c' or 'talk' to conversate, type 'i' or 'inventory' to see your inventory,");
             Console.WriteLine("'take object' and 't object' will add an object to it and 'drop object'or 'd object' will drop an object from ypur inventory in the room");
+            Console.WriteLine("'give object' and 'g object' will give an object to the nearest entity");
             Console.WriteLine("by typing 'h' o 'help', you can see the possible commands again");
         }
         public static void NextMove()
         {
             Console.WriteLine("What do you want to do?");
-
-
         }
         public static void NoDirection()
         {
@@ -55,12 +54,20 @@ namespace TextAdventureNeu
         }
         public static void Exit()
         {
-            Console.WriteLine("You disapper suddendly, for some reason");
+            Console.WriteLine("You disappered suddendly, for some reason");
         }
 
         public static void NothingToTake()
         {
             Console.WriteLine("There is nothing to take from here");
+        }
+        public static void GameWon()
+        {
+            Console.WriteLine("Guard: You Did it! you brought me 3 Skulls, now you can go back where you came from!");
+            Console.WriteLine("The Guard locked you a dark, gross, cell");
+        }
+        public static void Line(){
+            Console.WriteLine("____________________");
         }
     }
 }
