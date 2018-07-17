@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 
-namespace Tests
+namespace NewTextAdventure
 {
     internal class Item
     {
@@ -14,6 +14,8 @@ namespace Tests
         public int strengthPoints;
         public int defensePoints;
         public bool isEquipped;
+
+        
     
       
     }

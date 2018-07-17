@@ -131,6 +131,19 @@ namespace NewTextAdventure
 
                 case "f":
                 case "fight":
+                if (currentPosition.entity == null)
+            {
+                Outputs.NobodyHere();
+                Outputs.NextMove();
+                Move(currentPosition);
+            }else{
+
+                 Gameplay.Fight(player, currentPosition.entity);
+                 Move(currentPosition);
+                 Gameplay.DropItems(currentPosition);
+
+            }
+                  
 
                     break;
 
@@ -223,10 +236,6 @@ namespace NewTextAdventure
                     Outputs.ErrorMessage();
                     Move(currentPosition);
                     break;
-
-
-
-
 
             }
 
