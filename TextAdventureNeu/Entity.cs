@@ -14,7 +14,7 @@ namespace TextAdventureNeu
         public string entityName;
         public int health;
         public int strength;
-        public int defence;
+        public int defense;
         public bool stillalive;
         public List<Item> Inventory = new List<Item> { };
 

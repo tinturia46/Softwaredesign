@@ -9,11 +9,11 @@ namespace TextAdventureNeu
 {
     internal class Item
     {
-		public string itemName;
-        public string itemDescription;
-        public int strengthPoints;
-        public int defensePoints;
-        public bool isEquipped;
+		public string itemName ;
+        public string itemDescription ;
+        public int strengthPoints ;
+        public int defensePoints ;
+        
 
         
     

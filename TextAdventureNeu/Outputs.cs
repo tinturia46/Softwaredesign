@@ -10,12 +10,8 @@ namespace TextAdventureNeu
         {
             Console.WriteLine("Welcome Stranger, This is a TextAdventure Game.");
             Console.WriteLine("Your Quest will be explained later, for now learn the commands:");
-            Console.WriteLine("to look at an object or a room, type 'l object' or 'look object'. Change object to the name of the item, room or person you want to look at");
-            Console.WriteLine("type 'n','e','s','w' or 'north', 'east', 'south', 'west' to go to the selected direction.");
-            Console.WriteLine("type 'f' or 'fight' to fight, 'c' or 'talk' to conversate, type 'i' or 'inventory' to see your inventory,");
-            Console.WriteLine("'take object' and 't object' will add an object to it and 'drop object'or 'd object' will drop an object from ypur inventory in the room");
-            Console.WriteLine("'give object' and 'g object' will give an object to the nearest entity");
-            Console.WriteLine("by typing 'h' o 'help', you can see the possible commands again");
+            ShowCommands();
+            
         }
         public static void NextMove()
         {
@@ -24,20 +20,32 @@ namespace TextAdventureNeu
         public static void NoDirection()
         {
             Console.WriteLine("You can't go against a wall. Unless you aren't some kind of wizard, which you are not!");
-            NextMove();
+           
         }
-        public static void Locked()
+        public static void Locked(Room room)
         {
+            if(room.name=="the second part of a long hall"){
             Console.WriteLine("This Room seems to be Locked, Find a Key!");
+        }if(room.name=="a secret Room!"){
+            Console.WriteLine("You can't go against a wall. Even if they're shiny!");
+        }else{
+
         }
+        }
+
         public static void EmptyInventory()
         {
             Console.WriteLine("Your Inventory is empty! search for something to collect!");
         }
         public static void ShowCommands()
         {
-            Console.WriteLine("type 'n','e','s','w' to go north, east, south, or west. type (f) to fight, type (i) to see your inventory, (t) to add something to it or (d) to drop something in the room ");
-            NextMove();
+            Console.WriteLine("to look at an object or a room, type 'l object' or 'look object'. Change object to the name of the item, room or person you want to look at");
+            Console.WriteLine("type 'n','e','s','w' or 'north', 'east', 'south', 'west' to go to the selected direction.");
+            Console.WriteLine("type 'f' or 'fight' to fight, 'c' or 'talk' to conversate with the nearest Entity, type 'i' or 'inventory' to see your inventory,");
+            Console.WriteLine("'take object' and 't object' will add an object to it and 'drop object'or 'd object' will drop an object from ypur inventory in the room");
+            Console.WriteLine("'give object' and 'g object' will give an object to the nearest entity");
+            Console.WriteLine("by typing 'h' o 'help', you can see the possible commands again");
+            
         }
         public static void GameOver()
         {

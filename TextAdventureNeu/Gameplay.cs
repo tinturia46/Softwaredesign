@@ -9,11 +9,11 @@ namespace TextAdventureNeu
     {
         public static Player CreatePlayer()
         {
-            Player player = new Player { entityName = "you", health = 150, strength = 40, defence = 40, stillalive = true, };
+            Player player = new Player { entityName = "you", health = 150, strength = 40, defense = 40, stillalive = true, };
 
             Room entry = LoadGameData();
             player.playerPosition = entry;
-            
+
 
             return player;
         }
@@ -91,9 +91,9 @@ namespace TextAdventureNeu
                 Drop(dropper, "GreenSkull", currentroom);
                 Drop(dropper, "Amulet", currentroom);
             }
-            if (dropper.entityName == "BlueMonster")
+            if (dropper.entityName == "YellowMonster")
             {
-                Drop(dropper, "BlueSkull", currentroom);
+                Drop(dropper, "YellowSkull", currentroom);
             }
             if (dropper.entityName == "RedMonster")
             {
@@ -113,10 +113,34 @@ namespace TextAdventureNeu
             {
                 currentroom.itemsInRoom.Remove(toTake);
                 taker.Inventory.Add(toTake);
-
+                
                 Console.WriteLine("you took " + item + " from " + currentroom.name + "!");
+                CheckItem(taker, toTake);
             }
         }
+
+        public static void CheckItem(Entity taker, Item takenItem)
+        {
+            int oldStrength = taker.strength;
+            int oldDefense = taker.defense;
+            int newStrength = oldStrength + takenItem.strengthPoints;
+            int newDefense = oldDefense + takenItem.defensePoints;
+            int defenseDifference = (newDefense-oldDefense);
+            int strengthDifference = (newStrength-oldStrength);
+            if (newDefense==oldDefense){
+            }
+            else{
+                Console.WriteLine("you gained "+ defenseDifference +" defense Points!");
+            }
+            if (newStrength==oldStrength){
+            }
+            else{
+                Console.WriteLine("you gained "+ strengthDifference +" strength Points!");
+            }
+
+
+
+    }
 
         public static void Give(Entity dropper, string item, Room currentroom)
         {
@@ -188,12 +212,12 @@ namespace TextAdventureNeu
 
         public static int AttackFoe(Player hero, Entity foe)
         {
-            int newFoeHealth = (foe.health - (hero.strength - (foe.defence / 4)));
+            int newFoeHealth = (foe.health - (hero.strength - (foe.defense / 4)));
             return newFoeHealth;
         }
         public static int AttackHero(Player hero, Entity foe)
         {
-            int newHeroHealth = (hero.health - (foe.strength - (hero.defence / 4)));
+            int newHeroHealth = (hero.health - (foe.strength - (hero.defense / 4)));
             return newHeroHealth;
         }
 
@@ -253,31 +277,50 @@ namespace TextAdventureNeu
         }
         public static bool CheckDoor(Entity hero, Room room)
         {
-            Item Key = hero.Inventory.Find(x => x.itemName.Equals("Key"));
-            if (Key != null)
+            if (room.name == "the second part of a long hall")
             {
-                
-                return room.isAccesible = true;
+                Item Key = hero.Inventory.Find(x => x.itemName.Equals("Key"));
+                if (Key != null)
+                {
+
+                    return room.isAccesible = true;
+                }
+                else
+                {
+                    return room.isAccesible;
+                }
             }
-            else
+            if (room.name == "a secret Room!")
             {
-                return room.isAccesible;
+                Item WreckingBall = hero.Inventory.Find(x => x.itemName.Equals("WreckingBall"));
+                if (WreckingBall != null)
+                {
+
+                    return room.isAccesible = true;
+                }
+                else
+                {
+                    return room.isAccesible;
+                }
+
+
             }
+            return room.isAccesible;
         }
 
-        public static void CheckWin(Entity guard)
+
+        public static bool CheckWin(Entity guard)
         {
             Item skulls = guard.Inventory.Find(x => x.itemName.Equals("GreenSkull"));
-            Item skulls2 = guard.Inventory.Find(x => x.itemName.Equals("BlueSkull"));
+            Item skulls2 = guard.Inventory.Find(x => x.itemName.Equals("Yellow"));
             Item skulls3 = guard.Inventory.Find(x => x.itemName.Equals("RedSkull"));
             if (skulls != null && skulls2 != null && skulls3 != null)
             {
-                Outputs.GameWon();
-                Environment.Exit(0);
+                return true;
             }
             else
             {
-
+                return false;
             }
 
         }
