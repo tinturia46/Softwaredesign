@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 
 
-namespace NewTextAdventure
+namespace TextAdventureNeu
 {
     class Interaction
     {
@@ -32,7 +32,12 @@ namespace NewTextAdventure
 
             switch (input[0])
             {
-
+                case "i":
+                case "inventory":
+                    Gameplay.OpenInventory(player);
+                    Outputs.NextMove();
+                    Move(currentPosition);
+                break;
                 case "n":
                 case "north":
 
@@ -139,8 +144,10 @@ namespace NewTextAdventure
             }else{
 
                  Gameplay.Fight(player, currentPosition.entity);
+                 Gameplay.Drop(currentPosition.entity, "skull1", currentPosition);
+                 Outputs.NextMove();
                  Move(currentPosition);
-                 Gameplay.DropItems(currentPosition);
+               //  Gameplay.DeadDrop(currentPosition);
 
             }
                   

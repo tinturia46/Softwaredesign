@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace NewTextAdventure
+namespace TextAdventureNeu
 {
     class Program
     {

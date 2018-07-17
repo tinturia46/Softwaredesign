@@ -1,0 +1,10 @@
+C:\Users\Davide\Documents\GitHub\SoftwareDesign2\Softwaredesign\TextAdventureNeu\bin\Debug\netcoreapp2.0\TextAdventureNeu.deps.json
+C:\Users\Davide\Documents\GitHub\SoftwareDesign2\Softwaredesign\TextAdventureNeu\bin\Debug\netcoreapp2.0\TextAdventureNeu.runtimeconfig.json
+C:\Users\Davide\Documents\GitHub\SoftwareDesign2\Softwaredesign\TextAdventureNeu\bin\Debug\netcoreapp2.0\TextAdventureNeu.runtimeconfig.dev.json
+C:\Users\Davide\Documents\GitHub\SoftwareDesign2\Softwaredesign\TextAdventureNeu\bin\Debug\netcoreapp2.0\TextAdventureNeu.dll
+C:\Users\Davide\Documents\GitHub\SoftwareDesign2\Softwaredesign\TextAdventureNeu\bin\Debug\netcoreapp2.0\TextAdventureNeu.pdb
+C:\Users\Davide\Documents\GitHub\SoftwareDesign2\Softwaredesign\TextAdventureNeu\obj\Debug\netcoreapp2.0\TextAdventureNeu.csproj.CoreCompileInputs.cache
+C:\Users\Davide\Documents\GitHub\SoftwareDesign2\Softwaredesign\TextAdventureNeu\obj\Debug\netcoreapp2.0\TextAdventureNeu.AssemblyInfoInputs.cache
+C:\Users\Davide\Documents\GitHub\SoftwareDesign2\Softwaredesign\TextAdventureNeu\obj\Debug\netcoreapp2.0\TextAdventureNeu.AssemblyInfo.cs
+C:\Users\Davide\Documents\GitHub\SoftwareDesign2\Softwaredesign\TextAdventureNeu\obj\Debug\netcoreapp2.0\TextAdventureNeu.dll
+C:\Users\Davide\Documents\GitHub\SoftwareDesign2\Softwaredesign\TextAdventureNeu\obj\Debug\netcoreapp2.0\TextAdventureNeu.pdb

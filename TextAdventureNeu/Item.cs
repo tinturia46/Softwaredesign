@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 
-namespace NewTextAdventure
+namespace TextAdventureNeu
 {
     internal class Item
     {

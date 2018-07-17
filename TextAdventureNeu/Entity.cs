@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Collections;
 
-namespace NewTextAdventure
+namespace TextAdventureNeu
 {
     class Entity
     {

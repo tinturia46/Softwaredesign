@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-namespace NewTextAdventure
+namespace TextAdventureNeu
 {
     class Gameplay : GameData
     {
@@ -65,18 +65,30 @@ namespace NewTextAdventure
         public static void Take(Entity taker, string item, Room currentroom)
         {
             Item toTake = currentroom.itemsInRoom.Find(x => x.itemName.Equals(item));
+            if (toTake == null)
+            {
+                Outputs.NothingToTake();
+            }else{
             currentroom.itemsInRoom.Remove(toTake);
             taker.Inventory.Add(toTake);
 
             Console.WriteLine("you took " + item + " from " + currentroom.name + "!");
+            }
         }
         public static void Drop(Entity dropper, string item, Room currentroom)
         {
             Item toDrop = dropper.Inventory.Find(x => x.itemName.Equals(item));
-            dropper.Inventory.Remove(toDrop);
-            currentroom.itemsInRoom.Add(toDrop);
+            if (toDrop == null)
+            {
+                Console.WriteLine(dropper.entityName + " dropped nothing...");
+            }
+            else
+            {
+                dropper.Inventory.Remove(toDrop);
+                currentroom.itemsInRoom.Add(toDrop);
 
-            Console.WriteLine(dropper.entityName + " dropped " + item + " in " + currentroom.name + "!");
+                Console.WriteLine(dropper.entityName + " dropped " + item + " in " + currentroom.name + "!");
+            }
         }
         public static void Conversate(Entity talker, Room currentroom)
         {
@@ -96,14 +108,8 @@ namespace NewTextAdventure
 
 
         }
-        public static void DropItems(Room room)
-        {
-            Entity entity = room.entity;
+        
 
-
-
-
-        }
         public static void Fight(Player hero, Entity foe)
         {
             if (hero.health >= 0)
@@ -116,22 +122,31 @@ namespace NewTextAdventure
                     Console.WriteLine(foe.entityName + " still has " + foe.health + " health points remaining!");
                     Console.WriteLine(foe.entityName + " is attacking you");
                     hero.health = AttackHero(hero, foe);
-                    Console.WriteLine("You have " + hero.health + " health points remaining!");
-                    Fight(hero, foe);
+                    if (hero.health >= 0)
+                    {
+                        Console.WriteLine("You have " + hero.health + " health points remaining!");
+                        Fight(hero, foe);
+                    }
+                    else
+                    {
+                        hero.health = 0;
+                        Console.WriteLine(hero.entityName + " have " + hero.health + " health points remaining!");
+                        Outputs.GameOver();
+                        Environment.Exit(0);
+                    }
+
+
                 }
                 else
                 {
                     foe.health = 0;
                     Console.WriteLine(foe.entityName + " has " + foe.health + " health points remaining!");
-                    Console.WriteLine("you defeated " + foe.entityName + "Good Job!");
-                    Outputs.NextMove();
+                    Console.WriteLine("you defeated " + foe.entityName + " Good Job!");
+                    
                 }
-            }
-            else
-            {
 
-                Outputs.GameOver();
             }
+
 
         }
         public static int AttackFoe(Player hero, Entity foe)
@@ -146,6 +161,15 @@ namespace NewTextAdventure
 
             int newHeroHealth = (hero.health - (foe.strength - (hero.defence / 4)));
             return newHeroHealth;
+
+        }
+
+        public static void OpenInventory(Entity entity){
+            Console.WriteLine("you have following items in your inventory: ");
+           foreach(Item i in entity.Inventory){
+               Console.WriteLine(i.itemName);
+           }
+           
 
         }
 
