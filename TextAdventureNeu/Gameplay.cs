@@ -61,7 +61,7 @@ namespace TextAdventureNeu
             {
                 Console.WriteLine(currentroom.entity.entitiyDescription);
             }
-            if (input.Equals(currentroom.name))
+            if (input.Equals("Room"));
             {
                 Console.WriteLine(currentroom.description);
             }
@@ -113,7 +113,7 @@ namespace TextAdventureNeu
             {
                 currentroom.itemsInRoom.Remove(toTake);
                 taker.Inventory.Add(toTake);
-                
+
                 Console.WriteLine("you took " + item + " from " + currentroom.name + "!");
                 CheckItem(taker, toTake);
             }
@@ -125,22 +125,26 @@ namespace TextAdventureNeu
             int oldDefense = taker.defense;
             int newStrength = oldStrength + takenItem.strengthPoints;
             int newDefense = oldDefense + takenItem.defensePoints;
-            int defenseDifference = (newDefense-oldDefense);
-            int strengthDifference = (newStrength-oldStrength);
-            if (newDefense==oldDefense){
+            int defenseDifference = (newDefense - oldDefense);
+            int strengthDifference = (newStrength - oldStrength);
+            if (newDefense == oldDefense)
+            {
             }
-            else{
-                Console.WriteLine("you gained "+ defenseDifference +" defense Points!");
+            else
+            {
+                Console.WriteLine("you gained " + defenseDifference + " defense Points!");
             }
-            if (newStrength==oldStrength){
+            if (newStrength == oldStrength)
+            {
             }
-            else{
-                Console.WriteLine("you gained "+ strengthDifference +" strength Points!");
+            else
+            {
+                Console.WriteLine("you gained " + strengthDifference + " strength Points!");
             }
 
 
 
-    }
+        }
 
         public static void Give(Entity dropper, string item, Room currentroom)
         {
@@ -314,9 +318,17 @@ namespace TextAdventureNeu
             Item skulls = guard.Inventory.Find(x => x.itemName.Equals("GreenSkull"));
             Item skulls2 = guard.Inventory.Find(x => x.itemName.Equals("Yellow"));
             Item skulls3 = guard.Inventory.Find(x => x.itemName.Equals("RedSkull"));
-            if (skulls != null && skulls2 != null && skulls3 != null)
+            if (skulls != null /*&& skulls2 != null && skulls3 != null*/)
             {
-                return true;
+                if (skulls2 != null)
+                {
+                    if (skulls3 != null)
+                    {
+                        return true;
+                    }
+                }
+                return false;
+
             }
             else
             {

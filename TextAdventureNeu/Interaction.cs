@@ -13,13 +13,15 @@ namespace TextAdventureNeu
         public static Room currentPosition;
         public static Player player;
         public static Entity guard;
+        public static Room guardposition;
 
         public static void GameStart()
         {
 
             player = Gameplay.CreatePlayer();
             startposition = GameData.LoadGameData();
-            guard = startposition.entity;
+            guardposition = GameData.LoadGameData();
+            
 
 
             Console.WriteLine(startposition.description);
@@ -31,7 +33,7 @@ namespace TextAdventureNeu
         public static void Move(Room currentPlayerPosition)
         {
 
-            bool gameWon = Gameplay.CheckWin(guard);
+            bool gameWon = Gameplay.CheckWin(guardposition.entity);
             if (gameWon == true)
             {
                 Outputs.GameWon();

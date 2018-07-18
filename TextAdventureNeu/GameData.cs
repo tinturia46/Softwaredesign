@@ -30,6 +30,7 @@ namespace TextAdventureNeu
             Entity old_man = new Entity { entityName = "OldMan", entitiyDescription = "It's an old man...", health = 375, strength = 100, defense = 120, stillalive = true, speech1 = "Hello Youngster, Bring me my Amulet and i will reward You!", speech2 = "It is Dangerous to go alone, take this!" };
 
             // Create Room
+            
             Room entry = new Room { name = "Entry", isAccesible = true, isHere = true, entity = guard, description = "You are in a big Room, there are only a few candles, so you can't see much. There is a Guard, who seems to stare menacely at you... You hear a Growling sound coming from West and see some light coming from east.From North you hear slightly quieter Growl." };
             Room cell1 = new Room { name = "the first cell", isAccesible = true, isHere = false, entity = monster1, description = "You see a green, disgusting Monster, it smells horrible too! Its big claws are covered in blood! It seems to be a dead end!" };
             Room cell2 = new Room { name = "the second cell", isAccesible = true, isHere = false, entity = monster3, description = "This must be the last Monster... Get ready to fight" };
@@ -41,7 +42,8 @@ namespace TextAdventureNeu
 
 
 
-            // Link Rooms together
+            // Link Rooms togetherdo
+            
             entry.west = cell1;
             entry.east = room2;
             entry.north = room3;

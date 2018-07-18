@@ -8,3 +8,4 @@ C:\Users\Davide\Documents\GitHub\SoftwareDesign2\Softwaredesign\TextAdventureNeu
 C:\Users\Davide\Documents\GitHub\SoftwareDesign2\Softwaredesign\TextAdventureNeu\obj\Debug\netcoreapp2.0\TextAdventureNeu.AssemblyInfo.cs
 C:\Users\Davide\Documents\GitHub\SoftwareDesign2\Softwaredesign\TextAdventureNeu\obj\Debug\netcoreapp2.0\TextAdventureNeu.dll
 C:\Users\Davide\Documents\GitHub\SoftwareDesign2\Softwaredesign\TextAdventureNeu\obj\Debug\netcoreapp2.0\TextAdventureNeu.pdb
+C:\Users\Davide\Documents\GitHub\SoftwareDesign2\Softwaredesign\TextAdventureNeu\obj\Debug\netcoreapp2.0\TextAdventureNeu.csprojResolveAssemblyReference.cache
